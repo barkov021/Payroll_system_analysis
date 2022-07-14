@@ -13,7 +13,7 @@ create  view Education_View
      GROUP BY state 
      ORDER BY 1;
      
-	-- Finding employee with the highest gross salary
+	-- Finding the employee with the highest gross salary
      CREATE view top_gross_slary AS 
      SELECT CONCAT(employee.first_name, " ", employee.last_name) AS name, salary.gross_salary
      FROM salary 
@@ -25,7 +25,7 @@ create  view Education_View
      LIMIT 1;
      
      
-     -- Checking how many hours person with the highest gross salary worked 
+     -- Checking how many hours a person with the highest gross salary worked 
      
      SELECT CONCAT(first_name, " ", last_name), attendance.Hours_Worked
      FROM employee 
