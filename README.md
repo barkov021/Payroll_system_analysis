@@ -35,4 +35,4 @@ SQL, Importing data, Summarizing data, Creating views, Joining data
 ```
 ## Screenshots
 
-![App Screenshot](top_gross_salary_view.jpg)
+![App Screenshot](payroll_view.jpg)
